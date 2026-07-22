@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Generated artifacts (regenerate via `python src/train.py --regenerate`)
+data/*.csv
+models/*.joblib
+
+.DS_Store
