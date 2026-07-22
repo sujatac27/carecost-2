@@ -64,6 +64,17 @@ def inject_custom_css():
     h1, h2, h3 { font-family: 'Source Serif 4', serif !important; color: var(--ink) !important; font-weight: 600 !important; }
     h1 { letter-spacing: -0.01em; }
 
+    /* Force readable text everywhere — belt-and-suspenders backup in case the
+       viewer's browser/account is set to Streamlit's dark theme, which would
+       otherwise make body text render white-on-light and disappear. */
+    .stApp, .stApp p, .stApp span, .stApp label, .stApp div,
+    div[data-testid="stMarkdownContainer"], div[data-testid="stMarkdownContainer"] p,
+    div[data-testid="stWidgetLabel"] label, div[data-testid="stWidgetLabel"] p,
+    div[data-testid="stCaptionContainer"], .stSelectbox label, .stSlider label {
+        color: var(--ink) !important;
+    }
+    section[data-testid="stSidebar"] * { color: var(--ink) !important; }
+
     .eyebrow {
         font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem; letter-spacing: 0.14em;
         text-transform: uppercase; color: var(--slate); margin-bottom: 0.15rem;
