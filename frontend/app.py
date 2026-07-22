@@ -36,6 +36,95 @@ from explainability import ExplainabilityEngine, template_explanation, llm_expla
 
 st.set_page_config(page_title="CareCost AI", page_icon="🏥", layout="wide")
 
+
+def inject_custom_css():
+    """Applies a 'financial ledger / insurance statement' visual identity:
+    a serif display face for headers (like an official statement letterhead),
+    monospace numerals for every dollar figure (so costs align like a real
+    ledger), a muted ink/paper/rust palette instead of default Streamlit
+    colors, and a rotated 'ESTIMATE — NOT A BILL' stamp on the cost card —
+    which doubles as a visual reinforcement of the project's core disclaimer."""
+    st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+    :root {
+        --ink: #16233D;
+        --paper: #F4F6F2;
+        --paper-card: #FFFFFF;
+        --ledger-green: #1F6E5C;
+        --rust: #A8442E;
+        --gold-stamp: #B08D2B;
+        --slate: #5B6472;
+        --hairline: #D8DCD4;
+    }
+
+    .stApp { background-color: var(--paper); }
+    html, body, [class*="css"] { font-family: 'IBM Plex Sans', sans-serif; color: var(--ink); }
+    h1, h2, h3 { font-family: 'Source Serif 4', serif !important; color: var(--ink) !important; font-weight: 600 !important; }
+    h1 { letter-spacing: -0.01em; }
+
+    .eyebrow {
+        font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem; letter-spacing: 0.14em;
+        text-transform: uppercase; color: var(--slate); margin-bottom: 0.15rem;
+    }
+    .letterhead-rule { border: none; border-top: 1.5px solid var(--ink); margin: 0.4rem 0 1.1rem 0; }
+
+    /* Statement card holding the three headline cost figures */
+    .statement-card {
+        background: var(--paper-card); border: 1px solid var(--hairline); border-radius: 6px;
+        padding: 1.6rem 1.8rem 1.4rem 1.8rem; position: relative; overflow: hidden;
+        box-shadow: 0 1px 3px rgba(22,35,61,0.06);
+    }
+    .statement-row { display: flex; gap: 0; }
+    .statement-col { flex: 1; padding: 0 1.4rem; }
+    .statement-col + .statement-col { border-left: 1px dashed var(--hairline); }
+    .statement-label {
+        font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; letter-spacing: 0.1em;
+        text-transform: uppercase; color: var(--slate); margin-bottom: 0.35rem;
+    }
+    .statement-value {
+        font-family: 'IBM Plex Mono', monospace; font-size: 2.1rem; font-weight: 500;
+        line-height: 1.1; color: var(--ink);
+    }
+    .statement-value.green { color: var(--ledger-green); }
+    .statement-value.rust { color: var(--rust); }
+    .statement-sub { font-size: 0.78rem; color: var(--slate); margin-top: 0.3rem; }
+
+    .stamp {
+        position: absolute; top: 14px; right: -34px; transform: rotate(11deg);
+        border: 2.5px solid var(--gold-stamp); color: var(--gold-stamp);
+        font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 0.68rem;
+        letter-spacing: 0.08em; padding: 5px 40px; opacity: 0.75; border-radius: 3px;
+        text-transform: uppercase; white-space: nowrap;
+    }
+
+    /* Ledger-style number formatting anywhere a dollar figure appears */
+    .ledger-num { font-family: 'IBM Plex Mono', monospace; }
+
+    section[data-testid="stSidebar"] { background-color: #EFEDE4; border-right: 1px solid var(--hairline); }
+    section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h3 {
+        font-family: 'IBM Plex Mono', monospace !important; font-size: 0.85rem !important;
+        letter-spacing: 0.08em; text-transform: uppercase; color: var(--slate) !important;
+    }
+
+    div[data-testid="stMetric"] {
+        background: var(--paper-card); border: 1px solid var(--hairline); border-radius: 6px;
+        padding: 0.8rem 1rem;
+    }
+
+    .stButton > button {
+        font-family: 'IBM Plex Mono', monospace; letter-spacing: 0.04em; text-transform: uppercase;
+        font-size: 0.8rem; background-color: var(--ink); color: var(--paper); border: none;
+        border-radius: 4px;
+    }
+    .stButton > button:hover { background-color: var(--rust); color: white; }
+    </style>
+    """, unsafe_allow_html=True)
+
+
+inject_custom_css()
+
 MODEL_PATH = ROOT / "models" / "carecost_model.joblib"
 HOSPITALS_PATH = ROOT / "data" / "hospitals.csv"
 CLAIMS_PATH = ROOT / "data" / "claims_clean.csv"
@@ -115,9 +204,11 @@ def predict_row(cpt_code, hospital_row, insurance_plan, patient_age, deductible_
 # Sidebar — inputs
 # ---------------------------------------------------------------------------
 
-st.title("🏥 CareCost AI")
+st.markdown('<div class="eyebrow">Financial Estimate · Not a Medical Recommendation</div>', unsafe_allow_html=True)
+st.title("CareCost AI")
 st.caption("AI-powered healthcare cost prediction & financial decision engine — "
            "financial transparency, not medical advice.")
+st.markdown('<hr class="letterhead-rule">', unsafe_allow_html=True)
 st.warning(
     "**Demo data notice:** Facility names shown are real hospitals, but every cost, "
     "star rating, and readmission figure is **simulated** for this demo — not that "
@@ -179,12 +270,27 @@ if run:
     total_bill_estimate = top.predicted_cost / 0.35 if top.predicted_cost > 0 else 0.0
     insurance_pays = max(0.0, total_bill_estimate - top.predicted_cost)
 
-    # --- Top metric row ------------------------------------------------------
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Estimated Total Bill", f"${total_bill_estimate:,.0f}")
-    c2.metric("Insurance Pays", f"${insurance_pays:,.0f}")
-    c3.metric("You Pay", f"${top.predicted_cost:,.0f}",
-              help=f"90% confidence interval: ${top.cost_low:,.0f} – ${top.cost_high:,.0f}")
+    # --- Statement card: the three headline cost figures, ledger-style ------
+    st.markdown(f"""
+    <div class="statement-card">
+        <div class="stamp">Estimate — Not a Bill</div>
+        <div class="statement-row">
+            <div class="statement-col">
+                <div class="statement-label">Estimated Total Bill</div>
+                <div class="statement-value">${total_bill_estimate:,.0f}</div>
+            </div>
+            <div class="statement-col">
+                <div class="statement-label">Insurance Pays</div>
+                <div class="statement-value green">${insurance_pays:,.0f}</div>
+            </div>
+            <div class="statement-col">
+                <div class="statement-label">You Pay</div>
+                <div class="statement-value rust">${top.predicted_cost:,.0f}</div>
+                <div class="statement-sub">90% range: ${top.cost_low:,.0f} – ${top.cost_high:,.0f}</div>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
     st.caption(f"Best-value facility: **{top.hospital_name}** "
                f"(★ {top.star_rating} · value score {top.value_score}/100)")
 
@@ -207,7 +313,7 @@ if run:
         fig = go.Figure()
         names = [p.hospital_name[:28] for p in ranked]
         costs = [p.predicted_cost for p in ranked]
-        colors = ["#2E7D32" if p.hospital_id == top.hospital_id else "#5B8DEF" for p in ranked]
+        colors = ["#1F6E5C" if p.hospital_id == top.hospital_id else "#16233D" for p in ranked]
         fig.add_trace(go.Bar(
             x=costs, y=names, orientation="h", marker_color=colors,
             error_x=dict(type="data", symmetric=False,
@@ -215,7 +321,9 @@ if run:
                          arrayminus=[p.predicted_cost - p.cost_low for p in ranked]),
         ))
         fig.update_layout(title="Your Estimated Out-of-Pocket Cost by Provider",
-                           xaxis_title="USD", height=420, margin=dict(l=10, r=10, t=40, b=10))
+                           xaxis_title="USD", height=420, margin=dict(l=10, r=10, t=40, b=10),
+                           plot_bgcolor="#F4F6F2", paper_bgcolor="#F4F6F2",
+                           font=dict(family="IBM Plex Sans, sans-serif", color="#16233D"))
         st.plotly_chart(fig, use_container_width=True)
 
     with right:
@@ -234,8 +342,10 @@ if run:
         st.subheader("What's Driving Your Cost")
         drv_df = pd.DataFrame([{"Factor": d.readable_label, "Impact ($)": d.shap_value} for d in drivers])
         fig2 = px.bar(drv_df, x="Impact ($)", y="Factor", orientation="h",
-                      color="Impact ($)", color_continuous_scale=["#2E7D32", "#C62828"])
-        fig2.update_layout(height=320, margin=dict(l=10, r=10, t=10, b=10), showlegend=False)
+                      color="Impact ($)", color_continuous_scale=["#1F6E5C", "#A8442E"])
+        fig2.update_layout(height=320, margin=dict(l=10, r=10, t=10, b=10), showlegend=False,
+                            plot_bgcolor="#F4F6F2", paper_bgcolor="#F4F6F2",
+                            font=dict(family="IBM Plex Sans, sans-serif", color="#16233D"))
         st.plotly_chart(fig2, use_container_width=True)
 
 else:
@@ -244,6 +354,9 @@ else:
 
     st.subheader("Cost Landscape (demo dataset)")
     fig = px.histogram(claims_df, x="patient_responsibility", nbins=60,
-                        title="Distribution of Patient Out-of-Pocket Costs (All Claims)")
-    fig.update_layout(xaxis_title="Patient Responsibility ($)", yaxis_title="Claim Count")
+                        title="Distribution of Patient Out-of-Pocket Costs (All Claims)",
+                        color_discrete_sequence=["#16233D"])
+    fig.update_layout(xaxis_title="Patient Responsibility ($)", yaxis_title="Claim Count",
+                       plot_bgcolor="#F4F6F2", paper_bgcolor="#F4F6F2",
+                       font=dict(family="IBM Plex Sans, sans-serif", color="#16233D"))
     st.plotly_chart(fig, use_container_width=True)
