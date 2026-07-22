@@ -1,0 +1,165 @@
+hospital_id,hospital_name,facility_type,zip_code,state,metro_tier,median_household_income,cost_of_living_index,population_density,star_rating,readmission_rate_pct,patient_satisfaction_score,facility_price_index,data_disclaimer
+H1001,Philadelphia Diagnostic Imaging Center #31,Imaging Center,19104,PA,Urban,38500,1.05,14200,4.4,12.6,74.8,0.576,SIMULATED cost/quality estimate — not this facility's actual published data
+H1002,Philadelphia Urgent Care #32,Imaging Center,19104,PA,Urban,38500,1.05,14200,3.7,11.8,79.1,0.755,SIMULATED cost/quality estimate — not this facility's actual published data
+H1003,Philadelphia Diagnostic Imaging Center #33,Urgent Care,19104,PA,Urban,38500,1.05,14200,4.0,12.2,81.0,0.603,SIMULATED cost/quality estimate — not this facility's actual published data
+H1004,Children's Hospital of Philadelphia,Academic Medical Center,19104,PA,Urban,38500,1.05,14200,4.7,10.7,91.6,1.234,SIMULATED cost/quality estimate — not this facility's actual published data
+H1005,Philadelphia Urgent Care #35,Urgent Care,19104,PA,Urban,38500,1.05,14200,3.0,11.9,85.6,0.603,SIMULATED cost/quality estimate — not this facility's actual published data
+H1006,Temple University Hospital,Academic Medical Center,19104,PA,Urban,38500,1.05,14200,4.5,14.3,88.0,1.261,SIMULATED cost/quality estimate — not this facility's actual published data
+H1007,Hospital of the University of Pennsylvania,Academic Medical Center,19107,PA,Urban,71200,1.1,22000,4.9,10.5,87.4,1.269,SIMULATED cost/quality estimate — not this facility's actual published data
+H1008,Philadelphia Urgent Care #38,Ambulatory Surgery Center,19107,PA,Urban,71200,1.1,22000,4.2,12.1,84.4,0.814,SIMULATED cost/quality estimate — not this facility's actual published data
+H1009,Thomas Jefferson University Hospital,Academic Medical Center,19107,PA,Urban,71200,1.1,22000,4.3,12.5,92.1,1.523,SIMULATED cost/quality estimate — not this facility's actual published data
+H1010,Philadelphia Diagnostic Imaging Center #40,Academic Medical Center,19107,PA,Urban,71200,1.1,22000,4.6,8.7,89.5,1.329,SIMULATED cost/quality estimate — not this facility's actual published data
+H1011,Philadelphia Diagnostic Imaging Center #41,Ambulatory Surgery Center,19107,PA,Urban,71200,1.1,22000,3.6,14.1,78.5,0.884,SIMULATED cost/quality estimate — not this facility's actual published data
+H1012,Philadelphia Surgical & Imaging Center #42,Ambulatory Surgery Center,19107,PA,Urban,71200,1.1,22000,3.9,12.5,93.0,0.867,SIMULATED cost/quality estimate — not this facility's actual published data
+H1013,Tisch Hospital,Academic Medical Center,10001,NY,Urban,112400,1.65,33000,3.9,12.9,85.9,1.789,SIMULATED cost/quality estimate — not this facility's actual published data
+H1014,Mount Sinai Hospital,Academic Medical Center,10001,NY,Urban,112400,1.65,33000,4.5,11.2,97.0,2.004,SIMULATED cost/quality estimate — not this facility's actual published data
+H1015,New York Surgical & Imaging Center #45,Imaging Center,10001,NY,Urban,112400,1.65,33000,4.3,10.8,93.6,0.987,SIMULATED cost/quality estimate — not this facility's actual published data
+H1016,NewYork-Presbyterian/Weill Cornell Medical Center,Academic Medical Center,10001,NY,Urban,112400,1.65,33000,3.5,12.7,80.6,2.115,SIMULATED cost/quality estimate — not this facility's actual published data
+H1017,NYU Langone Hospitals,Academic Medical Center,10001,NY,Urban,112400,1.65,33000,4.5,12.0,90.5,2.005,SIMULATED cost/quality estimate — not this facility's actual published data
+H1018,New York Surgical & Imaging Center #48,Ambulatory Surgery Center,10001,NY,Urban,112400,1.65,33000,2.8,10.5,68.9,1.046,SIMULATED cost/quality estimate — not this facility's actual published data
+H1019,New York Urgent Care #49,Urgent Care,10032,NY,Urban,42300,1.55,45000,3.1,14.4,78.7,0.928,SIMULATED cost/quality estimate — not this facility's actual published data
+H1020,New York Diagnostic Imaging Center #50,Community Hospital,10032,NY,Urban,42300,1.55,45000,3.3,10.8,80.2,1.706,SIMULATED cost/quality estimate — not this facility's actual published data
+H1021,New York Diagnostic Imaging Center #51,Community Hospital,10032,NY,Urban,42300,1.55,45000,3.5,11.1,73.2,1.563,SIMULATED cost/quality estimate — not this facility's actual published data
+H1022,New York Ambulatory Surgery Center #52,Ambulatory Surgery Center,10032,NY,Urban,42300,1.55,45000,3.9,11.6,99.0,1.084,SIMULATED cost/quality estimate — not this facility's actual published data
+H1023,New York Diagnostic Imaging Center #53,Academic Medical Center,10032,NY,Urban,42300,1.55,45000,4.3,13.2,97.0,2.069,SIMULATED cost/quality estimate — not this facility's actual published data
+H1024,New York Urgent Care #54,Academic Medical Center,10032,NY,Urban,42300,1.55,45000,3.5,11.1,77.0,1.891,SIMULATED cost/quality estimate — not this facility's actual published data
+H1025,University of Chicago Medical Center,Academic Medical Center,60601,IL,Urban,98700,1.3,26500,4.1,9.2,80.3,1.727,SIMULATED cost/quality estimate — not this facility's actual published data
+H1026,Rush University Medical Center,Academic Medical Center,60601,IL,Urban,98700,1.3,26500,5.0,14.9,98.3,1.466,SIMULATED cost/quality estimate — not this facility's actual published data
+H1027,Ann & Robert H. Lurie Children's Hospital,Academic Medical Center,60601,IL,Urban,98700,1.3,26500,3.7,11.2,81.1,1.636,SIMULATED cost/quality estimate — not this facility's actual published data
+H1028,Chicago Ambulatory Surgery Center #58,Imaging Center,60601,IL,Urban,98700,1.3,26500,4.0,11.3,79.7,0.675,SIMULATED cost/quality estimate — not this facility's actual published data
+H1029,Chicago Surgical & Imaging Center #59,Ambulatory Surgery Center,60601,IL,Urban,98700,1.3,26500,4.0,14.2,88.8,1.046,SIMULATED cost/quality estimate — not this facility's actual published data
+H1030,Chicago Ambulatory Surgery Center #60,Urgent Care,60601,IL,Urban,98700,1.3,26500,2.6,11.5,72.3,0.898,SIMULATED cost/quality estimate — not this facility's actual published data
+H1031,Chicago Urgent Care #61,Imaging Center,60612,IL,Urban,45200,1.15,12800,3.4,13.5,86.6,0.733,SIMULATED cost/quality estimate — not this facility's actual published data
+H1032,Northwestern Memorial Hospital,Academic Medical Center,60612,IL,Urban,45200,1.15,12800,3.8,12.4,83.0,1.256,SIMULATED cost/quality estimate — not this facility's actual published data
+H1033,Chicago Same-Day Surgery Center #63,Urgent Care,60612,IL,Urban,45200,1.15,12800,3.4,14.5,85.1,0.623,SIMULATED cost/quality estimate — not this facility's actual published data
+H1034,Chicago Urgent Care #64,Ambulatory Surgery Center,60612,IL,Urban,45200,1.15,12800,3.9,11.0,96.4,0.871,SIMULATED cost/quality estimate — not this facility's actual published data
+H1035,Chicago Ambulatory Surgery Center #65,Ambulatory Surgery Center,60612,IL,Urban,45200,1.15,12800,3.9,9.8,76.4,0.992,SIMULATED cost/quality estimate — not this facility's actual published data
+H1036,Chicago Same-Day Surgery Center #66,Imaging Center,60612,IL,Urban,45200,1.15,12800,3.7,14.0,76.8,0.667,SIMULATED cost/quality estimate — not this facility's actual published data
+H1037,San Francisco Surgical & Imaging Center #67,Imaging Center,94103,CA,Urban,145600,1.85,17800,3.7,11.8,84.3,1.251,SIMULATED cost/quality estimate — not this facility's actual published data
+H1038,UCSF Medical Center,Academic Medical Center,94103,CA,Urban,145600,1.85,17800,4.6,8.0,91.7,2.128,SIMULATED cost/quality estimate — not this facility's actual published data
+H1039,San Francisco Surgical & Imaging Center #69,Ambulatory Surgery Center,94103,CA,Urban,145600,1.85,17800,3.3,11.7,90.2,1.12,SIMULATED cost/quality estimate — not this facility's actual published data
+H1040,California Pacific Medical Center,Academic Medical Center,94103,CA,Urban,145600,1.85,17800,4.5,10.3,88.8,2.653,SIMULATED cost/quality estimate — not this facility's actual published data
+H1041,San Francisco Surgical & Imaging Center #71,Ambulatory Surgery Center,94103,CA,Urban,145600,1.85,17800,4.6,10.7,86.6,1.296,SIMULATED cost/quality estimate — not this facility's actual published data
+H1042,San Francisco Surgical & Imaging Center #72,Ambulatory Surgery Center,94103,CA,Urban,145600,1.85,17800,3.1,12.5,83.9,1.734,SIMULATED cost/quality estimate — not this facility's actual published data
+H1043,San Francisco Diagnostic Imaging Center #73,Ambulatory Surgery Center,90048,CA,Urban,98200,1.7,18500,3.3,11.8,71.3,1.137,SIMULATED cost/quality estimate — not this facility's actual published data
+H1044,Zuckerberg San Francisco General Hospital,Academic Medical Center,90048,CA,Urban,98200,1.7,18500,4.9,9.5,89.2,1.615,SIMULATED cost/quality estimate — not this facility's actual published data
+H1045,San Francisco Diagnostic Imaging Center #75,Ambulatory Surgery Center,90048,CA,Urban,98200,1.7,18500,3.5,10.7,83.6,0.966,SIMULATED cost/quality estimate — not this facility's actual published data
+H1046,San Francisco Diagnostic Imaging Center #76,Community Hospital,90048,CA,Urban,98200,1.7,18500,4.7,8.9,84.0,2.075,SIMULATED cost/quality estimate — not this facility's actual published data
+H1047,San Francisco Same-Day Surgery Center #77,Academic Medical Center,90048,CA,Urban,98200,1.7,18500,4.0,12.0,99.0,1.918,SIMULATED cost/quality estimate — not this facility's actual published data
+H1048,San Francisco Surgical & Imaging Center #78,Academic Medical Center,90048,CA,Urban,98200,1.7,18500,4.7,11.5,89.7,2.141,SIMULATED cost/quality estimate — not this facility's actual published data
+H1049,Texas Children's Hospital,Academic Medical Center,77002,TX,Urban,88300,1.05,8200,4.0,11.8,83.8,1.42,SIMULATED cost/quality estimate — not this facility's actual published data
+H1050,Houston Surgical & Imaging Center #80,Ambulatory Surgery Center,77002,TX,Urban,88300,1.05,8200,3.9,12.1,87.7,0.756,SIMULATED cost/quality estimate — not this facility's actual published data
+H1051,Houston Urgent Care #81,Imaging Center,77002,TX,Urban,88300,1.05,8200,3.8,14.8,99.0,0.714,SIMULATED cost/quality estimate — not this facility's actual published data
+H1052,Houston Methodist Hospital,Academic Medical Center,77002,TX,Urban,88300,1.05,8200,3.5,13.8,86.8,1.421,SIMULATED cost/quality estimate — not this facility's actual published data
+H1053,Baylor St. Luke's Medical Center,Academic Medical Center,77002,TX,Urban,88300,1.05,8200,4.8,11.4,84.4,1.268,SIMULATED cost/quality estimate — not this facility's actual published data
+H1054,Houston Diagnostic Imaging Center #84,Imaging Center,77002,TX,Urban,88300,1.05,8200,3.7,11.6,84.1,0.695,SIMULATED cost/quality estimate — not this facility's actual published data
+H1055,Houston Diagnostic Imaging Center #85,Imaging Center,77030,TX,Urban,76500,1.05,6200,2.4,12.8,77.9,0.707,SIMULATED cost/quality estimate — not this facility's actual published data
+H1056,Houston Urgent Care #86,Academic Medical Center,77030,TX,Urban,76500,1.05,6200,4.4,13.7,78.5,1.483,SIMULATED cost/quality estimate — not this facility's actual published data
+H1057,Houston Urgent Care #87,Community Hospital,77030,TX,Urban,76500,1.05,6200,3.4,10.6,80.9,1.214,SIMULATED cost/quality estimate — not this facility's actual published data
+H1058,Houston Same-Day Surgery Center #88,Urgent Care,77030,TX,Urban,76500,1.05,6200,4.0,12.2,99.0,0.608,SIMULATED cost/quality estimate — not this facility's actual published data
+H1059,Houston Urgent Care #89,Imaging Center,77030,TX,Urban,76500,1.05,6200,3.7,11.9,80.5,0.764,SIMULATED cost/quality estimate — not this facility's actual published data
+H1060,Houston Urgent Care #90,Community Hospital,77030,TX,Urban,76500,1.05,6200,3.3,14.0,89.0,1.279,SIMULATED cost/quality estimate — not this facility's actual published data
+H1061,Piedmont Atlanta Hospital,Academic Medical Center,30303,GA,Urban,62100,0.98,6100,3.3,12.1,73.4,1.176,SIMULATED cost/quality estimate — not this facility's actual published data
+H1062,Atlanta Urgent Care #92,Ambulatory Surgery Center,30303,GA,Urban,62100,0.98,6100,3.4,10.6,83.9,0.603,SIMULATED cost/quality estimate — not this facility's actual published data
+H1063,Grady Memorial Hospital,Academic Medical Center,30303,GA,Urban,62100,0.98,6100,4.4,12.8,95.6,0.909,SIMULATED cost/quality estimate — not this facility's actual published data
+H1064,Atlanta Diagnostic Imaging Center #94,Ambulatory Surgery Center,30303,GA,Urban,62100,0.98,6100,4.0,13.9,71.8,0.656,SIMULATED cost/quality estimate — not this facility's actual published data
+H1065,Emory University Hospital,Academic Medical Center,30303,GA,Urban,62100,0.98,6100,3.3,14.5,85.7,1.382,SIMULATED cost/quality estimate — not this facility's actual published data
+H1066,Atlanta Diagnostic Imaging Center #96,Imaging Center,30303,GA,Urban,62100,0.98,6100,4.4,12.7,92.6,0.655,SIMULATED cost/quality estimate — not this facility's actual published data
+H1067,Ascension St. John Hospital,Academic Medical Center,48201,MI,Urban,29800,0.85,5000,4.1,11.2,91.8,1.219,SIMULATED cost/quality estimate — not this facility's actual published data
+H1068,Henry Ford Hospital,Academic Medical Center,48201,MI,Urban,29800,0.85,5000,4.1,13.6,82.9,0.981,SIMULATED cost/quality estimate — not this facility's actual published data
+H1069,Detroit Diagnostic Imaging Center #2,Imaging Center,48201,MI,Urban,29800,0.85,5000,3.9,13.6,94.2,0.608,SIMULATED cost/quality estimate — not this facility's actual published data
+H1070,Detroit Medical Center - Harper University Hospital,Academic Medical Center,48201,MI,Urban,29800,0.85,5000,5.0,10.2,79.0,1.297,SIMULATED cost/quality estimate — not this facility's actual published data
+H1071,Detroit Urgent Care #4,Ambulatory Surgery Center,48201,MI,Urban,29800,0.85,5000,3.9,13.6,74.2,0.52,SIMULATED cost/quality estimate — not this facility's actual published data
+H1072,Detroit Ambulatory Surgery Center #5,Community Hospital,48201,MI,Urban,29800,0.85,5000,3.7,12.6,87.9,0.706,SIMULATED cost/quality estimate — not this facility's actual published data
+H1073,Detroit Urgent Care #6,Urgent Care,48202,MI,Urban,33500,0.85,7200,3.3,11.5,87.0,0.507,SIMULATED cost/quality estimate — not this facility's actual published data
+H1074,Detroit Surgical & Imaging Center #7,Urgent Care,48202,MI,Urban,33500,0.85,7200,3.4,13.3,85.5,0.497,SIMULATED cost/quality estimate — not this facility's actual published data
+H1075,Detroit Diagnostic Imaging Center #8,Community Hospital,48202,MI,Urban,33500,0.85,7200,3.3,12.5,89.6,0.81,SIMULATED cost/quality estimate — not this facility's actual published data
+H1076,Detroit Same-Day Surgery Center #9,Ambulatory Surgery Center,48202,MI,Urban,33500,0.85,7200,3.7,13.0,70.2,0.517,SIMULATED cost/quality estimate — not this facility's actual published data
+H1077,Detroit Surgical & Imaging Center #10,Community Hospital,48202,MI,Urban,33500,0.85,7200,2.0,12.5,80.0,0.821,SIMULATED cost/quality estimate — not this facility's actual published data
+H1078,Detroit Same-Day Surgery Center #11,Imaging Center,48202,MI,Urban,33500,0.85,7200,4.7,10.7,99.0,0.559,SIMULATED cost/quality estimate — not this facility's actual published data
+H1079,Boston Diagnostic Imaging Center #12,Imaging Center,02115,MA,Urban,68900,1.55,24500,3.5,9.7,77.7,0.964,SIMULATED cost/quality estimate — not this facility's actual published data
+H1080,Boston Urgent Care #13,Ambulatory Surgery Center,02115,MA,Urban,68900,1.55,24500,3.0,13.1,72.5,1.18,SIMULATED cost/quality estimate — not this facility's actual published data
+H1081,Boston Same-Day Surgery Center #14,Imaging Center,02115,MA,Urban,68900,1.55,24500,2.8,14.1,74.8,0.943,SIMULATED cost/quality estimate — not this facility's actual published data
+H1082,Boston Urgent Care #15,Urgent Care,02115,MA,Urban,68900,1.55,24500,3.6,11.7,87.5,0.89,SIMULATED cost/quality estimate — not this facility's actual published data
+H1083,Boston Urgent Care #16,Urgent Care,02115,MA,Urban,68900,1.55,24500,3.1,10.2,90.2,0.819,SIMULATED cost/quality estimate — not this facility's actual published data
+H1084,Boston Surgical & Imaging Center #17,Urgent Care,02115,MA,Urban,68900,1.55,24500,3.2,12.8,98.2,1.065,SIMULATED cost/quality estimate — not this facility's actual published data
+H1085,Johns Hopkins Hospital,Academic Medical Center,21287,MD,Urban,41200,1.15,11200,4.3,12.8,83.3,1.531,SIMULATED cost/quality estimate — not this facility's actual published data
+H1086,Baltimore Same-Day Surgery Center #19,Ambulatory Surgery Center,21287,MD,Urban,41200,1.15,11200,3.3,9.8,66.5,0.717,SIMULATED cost/quality estimate — not this facility's actual published data
+H1087,University of Maryland Medical Center,Academic Medical Center,21287,MD,Urban,41200,1.15,11200,4.0,14.4,97.0,1.302,SIMULATED cost/quality estimate — not this facility's actual published data
+H1088,Baltimore Urgent Care #21,Ambulatory Surgery Center,21287,MD,Urban,41200,1.15,11200,3.6,11.5,86.4,0.89,SIMULATED cost/quality estimate — not this facility's actual published data
+H1089,Baltimore Ambulatory Surgery Center #22,Imaging Center,21287,MD,Urban,41200,1.15,11200,3.2,12.3,99.0,0.768,SIMULATED cost/quality estimate — not this facility's actual published data
+H1090,Baltimore Urgent Care #23,Ambulatory Surgery Center,21287,MD,Urban,41200,1.15,11200,3.9,12.5,86.5,0.811,SIMULATED cost/quality estimate — not this facility's actual published data
+H1091,Seattle Ambulatory Surgery Center #24,Imaging Center,98104,WA,Urban,89600,1.45,15600,3.4,13.1,92.4,0.984,SIMULATED cost/quality estimate — not this facility's actual published data
+H1092,UW Medical Center - Montlake,Academic Medical Center,98104,WA,Urban,89600,1.45,15600,4.5,10.6,98.8,1.448,SIMULATED cost/quality estimate — not this facility's actual published data
+H1093,Swedish Medical Center - First Hill,Academic Medical Center,98104,WA,Urban,89600,1.45,15600,3.0,10.3,91.9,2.055,SIMULATED cost/quality estimate — not this facility's actual published data
+H1094,Seattle Diagnostic Imaging Center #27,Ambulatory Surgery Center,98104,WA,Urban,89600,1.45,15600,2.0,12.7,93.5,1.098,SIMULATED cost/quality estimate — not this facility's actual published data
+H1095,Seattle Surgical & Imaging Center #28,Community Hospital,98104,WA,Urban,89600,1.45,15600,3.7,9.5,83.4,1.467,SIMULATED cost/quality estimate — not this facility's actual published data
+H1096,Seattle Diagnostic Imaging Center #29,Academic Medical Center,98104,WA,Urban,89600,1.45,15600,4.4,12.1,85.3,2.056,SIMULATED cost/quality estimate — not this facility's actual published data
+H1097,Denver Ambulatory Surgery Center #30,Urgent Care,80204,CO,Urban,72300,1.2,9800,2.7,11.5,89.7,0.645,SIMULATED cost/quality estimate — not this facility's actual published data
+H1098,Denver Health Medical Center,Academic Medical Center,80204,CO,Urban,72300,1.2,9800,5.0,10.7,97.1,1.824,SIMULATED cost/quality estimate — not this facility's actual published data
+H1099,UCHealth University of Colorado Hospital,Academic Medical Center,80204,CO,Urban,72300,1.2,9800,3.6,11.2,89.1,1.247,SIMULATED cost/quality estimate — not this facility's actual published data
+H1100,Denver Ambulatory Surgery Center #33,Community Hospital,80204,CO,Urban,72300,1.2,9800,3.1,14.1,62.4,1.087,SIMULATED cost/quality estimate — not this facility's actual published data
+H1101,Denver Same-Day Surgery Center #34,Community Hospital,80204,CO,Urban,72300,1.2,9800,3.5,11.7,82.8,1.177,SIMULATED cost/quality estimate — not this facility's actual published data
+H1102,Denver Same-Day Surgery Center #35,Academic Medical Center,80204,CO,Urban,72300,1.2,9800,3.6,13.0,90.5,1.607,SIMULATED cost/quality estimate — not this facility's actual published data
+H1103,Phoenix Children's Hospital,Academic Medical Center,85006,AZ,Urban,51400,0.98,5400,5.0,10.4,92.5,1.141,SIMULATED cost/quality estimate — not this facility's actual published data
+H1104,Phoenix Diagnostic Imaging Center #37,Imaging Center,85006,AZ,Urban,51400,0.98,5400,3.2,11.0,81.5,0.663,SIMULATED cost/quality estimate — not this facility's actual published data
+H1105,Phoenix Ambulatory Surgery Center #38,Ambulatory Surgery Center,85006,AZ,Urban,51400,0.98,5400,4.3,12.3,89.1,0.65,SIMULATED cost/quality estimate — not this facility's actual published data
+H1106,Banner - University Medical Center Phoenix,Academic Medical Center,85006,AZ,Urban,51400,0.98,5400,4.3,9.0,89.6,1.294,SIMULATED cost/quality estimate — not this facility's actual published data
+H1107,Phoenix Surgical & Imaging Center #40,Ambulatory Surgery Center,85006,AZ,Urban,51400,0.98,5400,3.9,9.4,98.1,0.811,SIMULATED cost/quality estimate — not this facility's actual published data
+H1108,Phoenix Diagnostic Imaging Center #41,Imaging Center,85006,AZ,Urban,51400,0.98,5400,2.5,11.3,74.8,0.555,SIMULATED cost/quality estimate — not this facility's actual published data
+H1109,Sylvester Comprehensive Cancer Center - UHealth,Academic Medical Center,33136,FL,Urban,34700,1.05,7600,5.0,8.7,88.3,1.382,SIMULATED cost/quality estimate — not this facility's actual published data
+H1110,Miami Surgical & Imaging Center #43,Urgent Care,33136,FL,Urban,34700,1.05,7600,3.4,14.8,70.9,0.489,SIMULATED cost/quality estimate — not this facility's actual published data
+H1111,Miami Same-Day Surgery Center #44,Imaging Center,33136,FL,Urban,34700,1.05,7600,3.6,13.1,87.0,0.537,SIMULATED cost/quality estimate — not this facility's actual published data
+H1112,Jackson Memorial Hospital,Academic Medical Center,33136,FL,Urban,34700,1.05,7600,3.9,13.6,82.0,1.241,SIMULATED cost/quality estimate — not this facility's actual published data
+H1113,Miami Urgent Care #46,Urgent Care,33136,FL,Urban,34700,1.05,7600,3.6,9.4,89.3,0.506,SIMULATED cost/quality estimate — not this facility's actual published data
+H1114,Miami Same-Day Surgery Center #47,Ambulatory Surgery Center,33136,FL,Urban,34700,1.05,7600,2.9,13.2,74.2,0.64,SIMULATED cost/quality estimate — not this facility's actual published data
+H1115,Minneapolis Ambulatory Surgery Center #48,Imaging Center,55415,MN,Urban,58900,1.08,8900,3.5,14.1,81.2,0.705,SIMULATED cost/quality estimate — not this facility's actual published data
+H1116,Minneapolis Surgical & Imaging Center #49,Ambulatory Surgery Center,55415,MN,Urban,58900,1.08,8900,3.4,12.8,79.7,0.739,SIMULATED cost/quality estimate — not this facility's actual published data
+H1117,Minneapolis Ambulatory Surgery Center #50,Ambulatory Surgery Center,55415,MN,Urban,58900,1.08,8900,2.4,15.6,96.9,0.74,SIMULATED cost/quality estimate — not this facility's actual published data
+H1118,Minneapolis Ambulatory Surgery Center #51,Ambulatory Surgery Center,55415,MN,Urban,58900,1.08,8900,3.6,11.5,83.8,0.674,SIMULATED cost/quality estimate — not this facility's actual published data
+H1119,Abbott Northwestern Hospital,Academic Medical Center,55415,MN,Urban,58900,1.08,8900,3.3,13.2,99.0,1.411,SIMULATED cost/quality estimate — not this facility's actual published data
+H1120,M Health Fairview University of Minnesota Medical Center,Academic Medical Center,55415,MN,Urban,58900,1.08,8900,4.1,12.3,75.0,1.41,SIMULATED cost/quality estimate — not this facility's actual published data
+H1121,Cherry Hill Ambulatory Surgery Center #54,Urgent Care,08053,NJ,Suburban,118900,1.2,1800,4.4,10.8,99.0,0.573,SIMULATED cost/quality estimate — not this facility's actual published data
+H1122,Jefferson Cherry Hill Hospital,Academic Medical Center,08053,NJ,Suburban,118900,1.2,1800,3.7,12.1,95.5,1.476,SIMULATED cost/quality estimate — not this facility's actual published data
+H1123,Cherry Hill Surgical & Imaging Center #56,Urgent Care,08053,NJ,Suburban,118900,1.2,1800,3.3,10.9,80.3,0.654,SIMULATED cost/quality estimate — not this facility's actual published data
+H1124,Virtua Voorhees Hospital,Academic Medical Center,08053,NJ,Suburban,118900,1.2,1800,3.2,13.0,78.4,1.063,SIMULATED cost/quality estimate — not this facility's actual published data
+H1125,Chicago Diagnostic Imaging Center #58,Ambulatory Surgery Center,60614,IL,Suburban,134200,1.25,15600,3.4,10.2,90.3,0.938,SIMULATED cost/quality estimate — not this facility's actual published data
+H1126,Chicago Diagnostic Imaging Center #59,Imaging Center,60614,IL,Suburban,134200,1.25,15600,4.1,12.0,92.0,0.796,SIMULATED cost/quality estimate — not this facility's actual published data
+H1127,Chicago Same-Day Surgery Center #60,Community Hospital,60614,IL,Suburban,134200,1.25,15600,4.2,10.6,85.6,1.178,SIMULATED cost/quality estimate — not this facility's actual published data
+H1128,Chicago Urgent Care #61,Ambulatory Surgery Center,60614,IL,Suburban,134200,1.25,15600,4.7,10.1,89.5,0.934,SIMULATED cost/quality estimate — not this facility's actual published data
+H1129,Houston Surgical & Imaging Center #62,Community Hospital,75024,TX,Suburban,121500,1.05,3400,2.0,12.2,68.1,0.758,SIMULATED cost/quality estimate — not this facility's actual published data
+H1130,Houston Surgical & Imaging Center #63,Academic Medical Center,75024,TX,Suburban,121500,1.05,3400,3.7,11.5,94.5,1.304,SIMULATED cost/quality estimate — not this facility's actual published data
+H1131,Houston Diagnostic Imaging Center #64,Academic Medical Center,75024,TX,Suburban,121500,1.05,3400,4.8,9.2,86.5,1.434,SIMULATED cost/quality estimate — not this facility's actual published data
+H1132,Houston Ambulatory Surgery Center #65,Community Hospital,75024,TX,Suburban,121500,1.05,3400,3.8,11.7,92.1,0.92,SIMULATED cost/quality estimate — not this facility's actual published data
+H1133,Atlanta Surgical & Imaging Center #66,Academic Medical Center,30144,GA,Suburban,79400,0.95,2100,3.5,9.7,89.8,1.165,SIMULATED cost/quality estimate — not this facility's actual published data
+H1134,Atlanta Urgent Care #67,Imaging Center,30144,GA,Suburban,79400,0.95,2100,3.8,13.3,68.7,0.507,SIMULATED cost/quality estimate — not this facility's actual published data
+H1135,Atlanta Ambulatory Surgery Center #68,Ambulatory Surgery Center,30144,GA,Suburban,79400,0.95,2100,4.0,12.7,78.7,0.592,SIMULATED cost/quality estimate — not this facility's actual published data
+H1136,Atlanta Ambulatory Surgery Center #69,Ambulatory Surgery Center,30144,GA,Suburban,79400,0.95,2100,3.8,12.5,85.3,0.707,SIMULATED cost/quality estimate — not this facility's actual published data
+H1137,Philadelphia Same-Day Surgery Center #70,Academic Medical Center,19087,PA,Suburban,142300,1.15,2600,4.7,8.4,74.8,1.649,SIMULATED cost/quality estimate — not this facility's actual published data
+H1138,Philadelphia Surgical & Imaging Center #71,Ambulatory Surgery Center,19087,PA,Suburban,142300,1.15,2600,3.2,9.5,83.1,0.92,SIMULATED cost/quality estimate — not this facility's actual published data
+H1139,Philadelphia Urgent Care #72,Ambulatory Surgery Center,19087,PA,Suburban,142300,1.15,2600,3.6,10.6,85.1,0.798,SIMULATED cost/quality estimate — not this facility's actual published data
+H1140,Philadelphia Surgical & Imaging Center #73,Community Hospital,19087,PA,Suburban,142300,1.15,2600,4.6,13.5,99.0,1.023,SIMULATED cost/quality estimate — not this facility's actual published data
+H1141,Cedars-Sinai Marina del Rey Hospital,Academic Medical Center,90210,CA,Suburban,175800,1.9,2200,4.6,11.6,99.0,2.617,SIMULATED cost/quality estimate — not this facility's actual published data
+H1142,Beverly Hills Same-Day Surgery Center #75,Community Hospital,90210,CA,Suburban,175800,1.9,2200,3.6,9.2,85.9,1.773,SIMULATED cost/quality estimate — not this facility's actual published data
+H1143,Beverly Hills Surgical & Imaging Center #76,Ambulatory Surgery Center,90210,CA,Suburban,175800,1.9,2200,4.8,13.3,99.0,1.41,SIMULATED cost/quality estimate — not this facility's actual published data
+H1144,Beverly Hills Ambulatory Surgery Center #77,Ambulatory Surgery Center,90210,CA,Suburban,175800,1.9,2200,3.9,9.9,90.6,1.378,SIMULATED cost/quality estimate — not this facility's actual published data
+H1145,Charlotte Surgical & Imaging Center #78,Urgent Care,28270,NC,Suburban,108200,1.02,1900,3.3,12.1,97.3,0.621,SIMULATED cost/quality estimate — not this facility's actual published data
+H1146,Novant Health Presbyterian Medical Center,Academic Medical Center,28270,NC,Suburban,108200,1.02,1900,4.2,11.0,80.9,1.282,SIMULATED cost/quality estimate — not this facility's actual published data
+H1147,Atrium Health Carolinas Medical Center,Academic Medical Center,28270,NC,Suburban,108200,1.02,1900,3.4,12.8,87.3,1.026,SIMULATED cost/quality estimate — not this facility's actual published data
+H1148,Charlotte Same-Day Surgery Center #81,Academic Medical Center,28270,NC,Suburban,108200,1.02,1900,4.8,12.3,99.0,1.312,SIMULATED cost/quality estimate — not this facility's actual published data
+H1149,St. Louis Surgical & Imaging Center #82,Ambulatory Surgery Center,63105,MO,Suburban,132400,1.05,3300,4.0,12.1,98.3,0.856,SIMULATED cost/quality estimate — not this facility's actual published data
+H1150,St. Louis Urgent Care #83,Imaging Center,63105,MO,Suburban,132400,1.05,3300,3.2,11.9,83.8,0.666,SIMULATED cost/quality estimate — not this facility's actual published data
+H1151,St. Louis Ambulatory Surgery Center #84,Imaging Center,63105,MO,Suburban,132400,1.05,3300,3.6,11.0,87.7,0.65,SIMULATED cost/quality estimate — not this facility's actual published data
+H1152,St. Louis Urgent Care #85,Ambulatory Surgery Center,63105,MO,Suburban,132400,1.05,3300,4.0,9.8,83.9,0.886,SIMULATED cost/quality estimate — not this facility's actual published data
+H1153,Bozeman Same-Day Surgery Center #86,Urgent Care,59718,MT,Rural,61300,0.92,45,2.6,9.7,63.3,0.508,SIMULATED cost/quality estimate — not this facility's actual published data
+H1154,Bozeman Health Deaconess Hospital,Academic Medical Center,59718,MT,Rural,61300,0.92,45,4.1,13.2,67.5,1.234,SIMULATED cost/quality estimate — not this facility's actual published data
+H1155,Bozeman Same-Day Surgery Center #88,Community Hospital,59718,MT,Rural,61300,0.92,45,2.7,12.2,73.0,0.821,SIMULATED cost/quality estimate — not this facility's actual published data
+H1156,UnityPoint Health - Trinity Regional Medical Center,Academic Medical Center,50588,IA,Rural,54200,0.85,18,5.0,13.3,92.3,1.337,SIMULATED cost/quality estimate — not this facility's actual published data
+H1157,Fort Dodge Same-Day Surgery Center #90,Community Hospital,50588,IA,Rural,54200,0.85,18,3.3,12.4,86.3,1.174,SIMULATED cost/quality estimate — not this facility's actual published data
+H1158,Fort Dodge Diagnostic Imaging Center #91,Community Hospital,50588,IA,Rural,54200,0.85,18,3.0,14.0,77.9,0.8,SIMULATED cost/quality estimate — not this facility's actual published data
+H1159,St. John's Medical Center,Academic Medical Center,83001,WY,Rural,68900,1.0,6,4.2,11.7,89.6,1.332,SIMULATED cost/quality estimate — not this facility's actual published data
+H1160,Jackson Surgical & Imaging Center #93,Ambulatory Surgery Center,83001,WY,Rural,68900,1.0,6,4.2,9.8,77.9,0.715,SIMULATED cost/quality estimate — not this facility's actual published data
+H1161,Jackson Ambulatory Surgery Center #94,Urgent Care,83001,WY,Rural,68900,1.0,6,2.9,13.9,69.4,0.523,SIMULATED cost/quality estimate — not this facility's actual published data
+H1162,Logan Health Medical Center,Academic Medical Center,59901,MT,Rural,52400,0.9,32,4.2,11.7,81.1,1.252,SIMULATED cost/quality estimate — not this facility's actual published data
+H1163,Kalispell Diagnostic Imaging Center #96,Ambulatory Surgery Center,59901,MT,Rural,52400,0.9,32,2.6,12.9,76.6,0.64,SIMULATED cost/quality estimate — not this facility's actual published data
+H1164,Kalispell Urgent Care #0,Urgent Care,59901,MT,Rural,52400,0.9,32,3.4,13.5,75.2,0.425,SIMULATED cost/quality estimate — not this facility's actual published data
